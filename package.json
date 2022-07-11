@@ -1,0 +1,36 @@
+{
+  "name": "@millenmortier/scihub-tools",
+  "version": "0.1.0",
+  "description": "Utility functions for when working with SciHub",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millenmortier/scihub-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millenmortier/scihub-tools/issues"
+  },
+  "homepage": "https://github.com/millenmortier/scihub-tools#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/jsdom": "^16.2.14",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^20.0.0"
+  }
+}
